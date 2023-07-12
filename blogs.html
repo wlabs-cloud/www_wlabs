@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html  lang="en">
+	<head>
+		<meta charset="utf-8" >
+		<title>blogs</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="icon" href="i/favicon-default.png">
+		<!-- AOS 3.0.0-beta.6 plugin CSS (Animations) -->
+		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+		<!-- Google Fonts -->
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&subset=latin&display=swap" rel="stylesheet">
+		<!-- Startup CSS + Bootstrap CSS (Styles for all blocks) - Remove ".min" if you want to edit a css code -->
+		<link href="css/styles.min.css" rel="stylesheet" />
+		<!-- jQuery 3.6.0 (uncomment line below if you need jQuery) -->
+		<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
+		<!-- Open graph settings (social networks sharing settings) -->
+		<meta name='twitter:card' content='summary_large_image'>
+		<!-- Open graph settings end -->
+	</head> 
+	<body>
+
+<!-- Navigation 5 -->
+	<nav class="bg-bg-3 sticky-top py-4 py-lg-7">
+		<div class="d-block d-lg-none">
+			<div class="container">
+				<div class="row align-items-center">
+					<div class="col-3" data-aos="fade-down" data-aos-delay="0">
+						<a class="btn btn-width-equal-height d-lg-none rounded-circle custom-mobile-nav-btn" data-bs-toggle="offcanvas" data-bs-target="#custom-id-yp9141cy">
+							<svg width="20" height="20" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" class="fill-light-1">
+								<path d="M2.00016 5.33333H14.0002C14.177 5.33333 14.3465 5.2631 14.4716 5.13807C14.5966 5.01305 14.6668 4.84348 14.6668 4.66667C14.6668 4.48986 14.5966 4.32029 14.4716 4.19526C14.3465 4.07024 14.177 4 14.0002 4H2.00016C1.82335 4 1.65378 4.07024 1.52876 4.19526C1.40373 4.32029 1.3335 4.48986 1.3335 4.66667C1.3335 4.84348 1.40373 5.01305 1.52876 5.13807C1.65378 5.2631 1.82335 5.33333 2.00016 5.33333ZM14.0002 10.6667H2.00016C1.82335 10.6667 1.65378 10.7369 1.52876 10.8619C1.40373 10.987 1.3335 11.1565 1.3335 11.3333C1.3335 11.5101 1.40373 11.6797 1.52876 11.8047C1.65378 11.9298 1.82335 12 2.00016 12H14.0002C14.177 12 14.3465 11.9298 14.4716 11.8047C14.5966 11.6797 14.6668 11.5101 14.6668 11.3333C14.6668 11.1565 14.5966 10.987 14.4716 10.8619C14.3465 10.7369 14.177 10.6667 14.0002 10.6667ZM14.0002 7.33333H2.00016C1.82335 7.33333 1.65378 7.40357 1.52876 7.5286C1.40373 7.65362 1.3335 7.82319 1.3335 8C1.3335 8.17681 1.40373 8.34638 1.52876 8.4714C1.65378 8.59643 1.82335 8.66667 2.00016 8.66667H14.0002C14.177 8.66667 14.3465 8.59643 14.4716 8.4714C14.5966 8.34638 14.6668 8.17681 14.6668 8C14.6668 7.82319 14.5966 7.65362 14.4716 7.5286C14.3465 7.40357 14.177 7.33333 14.0002 7.33333Z">
+								</path>
+							</svg>
+						</a>
+					</div>
+					<div class="col-6 text-center" data-aos="fade-down" data-aos-delay="250">
+						<a href="#">
+							<img src="i/wlabs-logo-dark.png" srcset="i/wlabs-logo-dark@2x.png 2x" alt="" class="img-fluid" data-aos="fade-down" data-aos-delay="0">
+						</a>
+					</div>
+					<div class="col-3" data-aos="fade-down" data-aos-delay="500">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="offcanvas offcanvas-start bg-bg-3" id="custom-id-yp9141cy" aria-hidden="true">
+			<div class="offcanvas-header">
+				<a href="#">
+					<img src="i/logo-dark.png" srcset="i/logo-dark@2x.png 2x" alt="" class="img-fluid">				
+				</a>
+				<a class="btn btn-sm btn-width-equal-height btn-bg-3" data-bs-dismiss="offcanvas">
+					<svg width="24" height="24" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" class="fill-dark-2">
+						<path d="M8.9398 8L13.1398 3.80667C13.2653 3.68113 13.3359 3.51087 13.3359 3.33333C13.3359 3.1558 13.2653 2.98554 13.1398 2.86C13.0143 2.73447 12.844 2.66394 12.6665 2.66394C12.4889 2.66394 12.3187 2.73447 12.1931 2.86L7.9998 7.06L3.80646 2.86C3.68093 2.73447 3.51066 2.66394 3.33313 2.66394C3.1556 2.66394 2.98533 2.73447 2.8598 2.86C2.73426 2.98554 2.66374 3.1558 2.66374 3.33333C2.66374 3.51087 2.73426 3.68113 2.8598 3.80667L7.0598 8L2.8598 12.1933C2.79731 12.2553 2.74771 12.329 2.71387 12.4103C2.68002 12.4915 2.6626 12.5787 2.6626 12.6667C2.6626 12.7547 2.68002 12.8418 2.71387 12.9231C2.74771 13.0043 2.79731 13.078 2.8598 13.14C2.92177 13.2025 2.99551 13.2521 3.07675 13.2859C3.15798 13.3198 3.24512 13.3372 3.33313 13.3372C3.42114 13.3372 3.50827 13.3198 3.58951 13.2859C3.67075 13.2521 3.74449 13.2025 3.80646 13.14L7.9998 8.94L12.1931 13.14C12.2551 13.2025 12.3288 13.2521 12.4101 13.2859C12.4913 13.3198 12.5785 13.3372 12.6665 13.3372C12.7545 13.3372 12.8416 13.3198 12.9228 13.2859C13.0041 13.2521 13.0778 13.2025 13.1398 13.14C13.2023 13.078 13.2519 13.0043 13.2857 12.9231C13.3196 12.8418 13.337 12.7547 13.337 12.6667C13.337 12.5787 13.3196 12.4915 13.2857 12.4103C13.2519 12.329 13.2023 12.2553 13.1398 12.1933L8.9398 8Z">
+						</path>
+					</svg>
+				</a>
+			</div>
+			<div class="offcanvas-body">
+				<div>
+					<a href="#" class="fw-bold text-dark-1 py-2 d-inline-block">
+								who-we -are
+					</a>
+				</div>
+				<div>
+					<a href="#" class="fw-bold text-dark-1 py-2 d-inline-block">
+								what-we-do
+					</a>
+				</div>
+				<div>
+					<a href="#" class="fw-bold text-dark-1 py-2 d-inline-block">
+								aether-link
+					</a>
+				</div>
+				<div>
+					<a href="#" class="fw-bold text-dark-1 py-2 d-inline-block">
+								aether-wise
+					</a>
+				</div>
+				<div>
+					<a href="#" class="fw-bold text-dark-1 py-2 d-inline-block">
+								blogs
+					</a>
+				</div>
+				<div>
+					<a href="#" class="fw-bold text-dark-1 py-2 d-inline-block">
+								our-clients
+					</a>
+				</div>
+				<a href="#" class="btn btn-action-1 btn-sm rounded-2 mt-4">
+							w-login
+				</a>
+			</div>
+		</div>
+		<div class="d-none d-lg-block">
+			<div class="container">
+				<div class="row justify-content-between align-items-center">
+					<div class="col-3">
+						<a href="#">
+							<img src="i/wlabs-logo-dark.png" srcset="i/wlabs-logo-dark@2x.png 2x" alt="" class="img-fluid" data-aos="fade-down" data-aos-delay="0">						
+						</a>
+					</div>
+					<div class="text-end col-9">
+						<a href="#" class="fw-bold mx-4 text-dark-1" data-aos="fade-down" data-aos-delay="150">
+									who-we-are
+						</a>
+						<a href="home.html" class="fw-bold mx-4 text-dark-1" data-aos="fade-down" data-aos-delay="250">
+									what-we-do
+						</a>
+						<a href="aetherlink.html" class="fw-bold mx-4 text-dark-1" data-aos="fade-down" data-aos-delay="400">
+									aether-link
+						</a>
+						<a href="#" class="fw-bold mx-4 text-dark-1" data-aos="fade-down" data-aos-delay="500" draggable="true">
+									aether-wise
+						</a>
+						<a href="#" class="fw-bold mx-4 text-dark-1" data-aos="fade-down" data-aos-delay="500">
+									blogs
+						</a>
+						<a href="#" class="fw-bold mx-4 text-dark-1" data-aos="fade-down" data-aos-delay="500">
+									our-clients
+						</a>
+						<a href="#" class="ms-4 btn btn-action-1 btn-sm rounded-2" data-aos="fade-down" data-aos-delay="650">
+									w-login
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</nav>
+	<!-- Header 2 -->
+		<header class="py-20 bg-bg-3 text-center">
+			<div class="container" draggable="true">
+				<h2 class="display-3 mb-4 mb-xl-6" data-aos="fade-down" data-aos-delay="0">
+							aether-link
+				</h2>
+				<p class="fs-1 mb-6 mb-md-8 remove-br" data-aos="fade-down" data-aos-delay="250">
+							connects your legacy application to cloud  native apps  in a manner thats secure, modern-compliant and easy to deploy
+				</p>
+				<a href="#" class="btn btn-action-1 mb-12" data-aos="fade-down" data-aos-delay="500">
+Explore Design			
+				</a>
+				<p class="fs-5 text-dark-2 mb-0" data-aos="fade-down" data-aos-delay="750">
+Scroll to learn more		
+				</p>
+			</div>
+		</header>
+		<!--Feature 3-->
+			<section class="py-10 py-lg-20 bg-bg-3">
+				<div class="container">
+					<h2 class="text-center display-5 mb-lg-20 mb-6" data-aos="fade-down" data-aos-delay="0">
+								what aether link features
+					</h2>
+					<div class="row">
+						<div class="mb-8 mb-lg-12 col-lg-4 col-md-6" data-aos="fade-down" data-aos-delay="150">
+							<div class="ps-12 position-relative">
+								<svg width="33" height="32" viewBox="0 0 33 32" fill="none" xmlns="http://www.w3.org/2000/svg" class="fill-action-1 position-absolute top-0 start-0">
+									<path fill-rule="evenodd" clip-rule="evenodd" d="M14.3964 0.87C15.5564 -0.29 17.4364 -0.29 18.5964 0.87L31.6264 13.902C32.7864 15.062 32.7864 16.94 31.6264 18.098L18.5964 31.13C17.4364 32.29 15.5584 32.29 14.4004 31.13L1.36637 18.1C1.09049 17.8247 0.871626 17.4977 0.722293 17.1377C0.57296 16.7777 0.496094 16.3917 0.496094 16.002C0.496094 15.6123 0.57296 15.2263 0.722293 14.8663C0.871626 14.5063 1.09049 14.1793 1.36637 13.904L14.3964 0.87ZM17.1964 2.27C17.0107 2.08436 16.7589 1.98007 16.4964 1.98007C16.2338 1.98007 15.982 2.08436 15.7964 2.27L2.76437 15.3C2.57873 15.4857 2.47444 15.7375 2.47444 16C2.47444 16.2625 2.57873 16.5143 2.76437 16.7L15.7964 29.732C15.982 29.9176 16.2338 30.0219 16.4964 30.0219C16.7589 30.0219 17.0107 29.9176 17.1964 29.732L30.2284 16.7C30.414 16.5143 30.5183 16.2625 30.5183 16C30.5183 15.7375 30.414 15.4857 30.2284 15.3L17.1964 2.268V2.27Z">
+									</path>
+									<path fill-rule="evenodd" clip-rule="evenodd" d="M24.2073 8.29183C24.3004 8.38473 24.3743 8.49508 24.4247 8.61657C24.4751 8.73806 24.5011 8.8683 24.5011 8.99983C24.5011 9.13137 24.4751 9.26161 24.4247 9.3831C24.3743 9.50459 24.3004 9.61494 24.2073 9.70783L10.2073 23.7078C10.0195 23.8956 9.76486 24.0011 9.49931 24.0011C9.23376 24.0011 8.97908 23.8956 8.79131 23.7078C8.60354 23.5201 8.49805 23.2654 8.49805 22.9998C8.49805 22.7343 8.60354 22.4796 8.79131 22.2918L22.7913 8.29183C22.8842 8.19871 22.9946 8.12482 23.116 8.07441C23.2375 8.024 23.3678 7.99805 23.4993 7.99805C23.6308 7.99805 23.7611 8.024 23.8826 8.07441C24.0041 8.12482 24.1144 8.19871 24.2073 8.29183Z">
+									</path>
+									<path fill-rule="evenodd" clip-rule="evenodd" d="M8.79183 8.29183C8.69871 8.38473 8.62482 8.49508 8.57441 8.61657C8.524 8.73806 8.49805 8.8683 8.49805 8.99983C8.49805 9.13137 8.524 9.26161 8.57441 9.3831C8.62482 9.50459 8.69871 9.61494 8.79183 9.70783L22.7918 23.7078C22.9796 23.8956 23.2343 24.0011 23.4998 24.0011C23.7654 24.0011 24.0201 23.8956 24.2078 23.7078C24.3956 23.5201 24.5011 23.2654 24.5011 22.9998C24.5011 22.7343 24.3956 22.4796 24.2078 22.2918L10.2078 8.29183C10.1149 8.19871 10.0046 8.12482 9.8831 8.07441C9.76161 8.024 9.63137 7.99805 9.49983 7.99805C9.3683 7.99805 9.23806 8.024 9.11657 8.07441C8.99508 8.12482 8.88473 8.19871 8.79183 8.29183Z">
+									</path>
+								</svg>
+								<h5 class="mb-4">
+											Multi platform deployable
+								</h5>
+								<p class="mb-0">
+									Got a big idea? Turn into reality - with a fast, simple, intuitive website builder.																
+								</p>
+							</div>
+						</div>
+						<div class="mb-8 mb-lg-12 col-lg-4 col-md-6" data-aos="fade-down" data-aos-delay="250">
+							<div class="ps-12 position-relative">
+								<svg width="33" height="32" viewBox="0 0 33 32" fill="none" xmlns="http://www.w3.org/2000/svg" class="fill-action-1 position-absolute top-0 start-0">
+									<path fill-rule="evenodd" clip-rule="evenodd" d="M0.5 5C0.5 4.20435 0.81607 3.44129 1.37868 2.87868C1.94129 2.31607 2.70435 2 3.5 2H29.5C30.2956 2 31.0587 2.31607 31.6213 2.87868C32.1839 3.44129 32.5 4.20435 32.5 5V27C32.5 27.7956 32.1839 28.5587 31.6213 29.1213C31.0587 29.6839 30.2956 30 29.5 30H3.5C2.70435 30 1.94129 29.6839 1.37868 29.1213C0.81607 28.5587 0.5 27.7956 0.5 27L0.5 5ZM3.5 4C3.23478 4 2.98043 4.10536 2.79289 4.29289C2.60536 4.48043 2.5 4.73478 2.5 5V27C2.5 27.2652 2.60536 27.5196 2.79289 27.7071C2.98043 27.8946 3.23478 28 3.5 28H29.5C29.7652 28 30.0196 27.8946 30.2071 27.7071C30.3946 27.5196 30.5 27.2652 30.5 27V5C30.5 4.73478 30.3946 4.48043 30.2071 4.29289C30.0196 4.10536 29.7652 4 29.5 4H3.5Z">
+									</path>
+									<path fill-rule="evenodd" clip-rule="evenodd" d="M10.5 30V2H12.5V30H10.5ZM20.5 30V2H22.5V30H20.5Z">
+									</path>
+								</svg>
+								<h5 class="mb-4">
+											Built in resiliency
+								</h5>
+								<p class="mb-0">
+								The website builder to help you grow 
+									<span class="text-nowrap">
+									- free
+									</span>
+									from bugs and errors.
+								</p>
+							</div>
+						</div>
+						<div class="mb-8 mb-lg-12 col-lg-4 col-md-6" data-aos="fade-down" data-aos-delay="400">
+							<div class="ps-12 position-relative">
+								<svg width="33" height="32" viewBox="0 0 33 32" fill="none" xmlns="http://www.w3.org/2000/svg" class="fill-action-1 position-absolute top-0 start-0">
+									<path fill-rule="evenodd" clip-rule="evenodd" d="M28.5 4H4.5C3.96957 4 3.46086 4.21071 3.08579 4.58579C2.71071 4.96086 2.5 5.46957 2.5 6V26C2.5 26.5304 2.71071 27.0391 3.08579 27.4142C3.46086 27.7893 3.96957 28 4.5 28H28.5C29.0304 28 29.5391 27.7893 29.9142 27.4142C30.2893 27.0391 30.5 26.5304 30.5 26V6C30.5 5.46957 30.2893 4.96086 29.9142 4.58579C29.5391 4.21071 29.0304 4 28.5 4ZM4.5 2C3.43913 2 2.42172 2.42143 1.67157 3.17157C0.921427 3.92172 0.5 4.93913 0.5 6L0.5 26C0.5 27.0609 0.921427 28.0783 1.67157 28.8284C2.42172 29.5786 3.43913 30 4.5 30H28.5C29.5609 30 30.5783 29.5786 31.3284 28.8284C32.0786 28.0783 32.5 27.0609 32.5 26V6C32.5 4.93913 32.0786 3.92172 31.3284 3.17157C30.5783 2.42143 29.5609 2 28.5 2H4.5Z">
+									</path>
+									<path fill-rule="evenodd" clip-rule="evenodd" d="M12.4998 17.9998C12.4998 17.7346 12.6052 17.4803 12.7927 17.2927C12.9803 17.1052 13.2346 16.9998 13.4998 16.9998H19.4998C19.7651 16.9998 20.0194 17.1052 20.2069 17.2927C20.3945 17.4803 20.4998 17.7346 20.4998 17.9998C20.4998 18.2651 20.3945 18.5194 20.2069 18.7069C20.0194 18.8945 19.7651 18.9998 19.4998 18.9998H13.4998C13.2346 18.9998 12.9803 18.8945 12.7927 18.7069C12.6052 18.5194 12.4998 18.2651 12.4998 17.9998ZM6.79183 8.29183C6.88473 8.19871 6.99508 8.12482 7.11657 8.07441C7.23806 8.024 7.3683 7.99805 7.49983 7.99805C7.63137 7.99805 7.76161 8.024 7.8831 8.07441C8.00459 8.12482 8.11494 8.19871 8.20783 8.29183L12.2078 12.2918C12.301 12.3847 12.3748 12.4951 12.4253 12.6166C12.4757 12.7381 12.5016 12.8683 12.5016 12.9998C12.5016 13.1314 12.4757 13.2616 12.4253 13.3831C12.3748 13.5046 12.301 13.6149 12.2078 13.7078L8.20783 17.7078C8.02006 17.8956 7.76539 18.0011 7.49983 18.0011C7.23428 18.0011 6.97961 17.8956 6.79183 17.7078C6.60406 17.5201 6.49857 17.2654 6.49857 16.9998C6.49857 16.7343 6.60406 16.4796 6.79183 16.2918L10.0858 12.9998L6.79183 9.70783C6.69871 9.61494 6.62482 9.50459 6.57441 9.3831C6.524 9.26161 6.49805 9.13137 6.49805 8.99983C6.49805 8.8683 6.524 8.73806 6.57441 8.61657C6.62482 8.49508 6.69871 8.38473 6.79183 8.29183Z">
+									</path>
+								</svg>
+								<h5 class="mb-4">
+											Built on open standards
+								</h5>
+								<p class="mb-0">
+									Get your idea out there in the way you want it. Start with Startup.																
+								</p>
+							</div>
+						</div>
+						<div class="mb-lg-0 mb-8 col-lg-4 col-md-6" data-aos="fade-down" data-aos-delay="500">
+							<div class="ps-12 position-relative">
+								<svg width="33" height="32" viewBox="0 0 33 32" fill="none" xmlns="http://www.w3.org/2000/svg" class="fill-action-1 position-absolute top-0 start-0">
+									<path fill-rule="evenodd" clip-rule="evenodd" d="M16.5 30C20.213 30 23.774 28.525 26.3995 25.8995C29.025 23.274 30.5 19.713 30.5 16C30.5 12.287 29.025 8.72601 26.3995 6.1005C23.774 3.475 20.213 2 16.5 2C12.787 2 9.22601 3.475 6.6005 6.1005C3.975 8.72601 2.5 12.287 2.5 16C2.5 19.713 3.975 23.274 6.6005 25.8995C9.22601 28.525 12.787 30 16.5 30ZM32.5 16C32.5 20.2435 30.8143 24.3131 27.8137 27.3137C24.8131 30.3143 20.7435 32 16.5 32C12.2565 32 8.18687 30.3143 5.18629 27.3137C2.18571 24.3131 0.5 20.2435 0.5 16C0.5 11.7565 2.18571 7.68687 5.18629 4.68629C8.18687 1.68571 12.2565 0 16.5 0C20.7435 0 24.8131 1.68571 27.8137 4.68629C30.8143 7.68687 32.5 11.7565 32.5 16Z">
+									</path>
+									<path fill-rule="evenodd" clip-rule="evenodd" d="M15.5 6C15.7652 6 16.0196 6.10536 16.2071 6.29289C16.3946 6.48043 16.5 6.73478 16.5 7V17.42L22.996 21.132C23.2196 21.2669 23.3815 21.4839 23.4473 21.7366C23.513 21.9893 23.4772 22.2577 23.3477 22.4844C23.2181 22.7111 23.0051 22.8782 22.754 22.9498C22.5029 23.0215 22.2337 22.9921 22.004 22.868L15.004 18.868C14.8509 18.7806 14.7237 18.6542 14.6352 18.5018C14.5467 18.3494 14.5001 18.1763 14.5 18V7C14.5 6.73478 14.6054 6.48043 14.7929 6.29289C14.9804 6.10536 15.2348 6 15.5 6Z">
+									</path>
+								</svg>
+								<h5 class="mb-4">
+											Day 2 operational
+								</h5>
+								<p class="mb-0">
+									Now you’re one step closer to the optimal design workflow. 																
+								</p>
+							</div>
+						</div>
+						<div class="mb-8 mb-md-0 col-lg-4 col-md-6" data-aos="fade-down" data-aos-delay="650">
+							<div class="ps-12 position-relative">
+								<svg width="33" height="32" viewBox="0 0 33 32" fill="none" xmlns="http://www.w3.org/2000/svg" class="fill-action-1 position-absolute top-0 start-0">
+									<path fill-rule="evenodd" clip-rule="evenodd" d="M6.5 0H26.5C27.5609 0 28.5783 0.421427 29.3284 1.17157C30.0786 1.92172 30.5 2.93913 30.5 4V10C30.5 11.0609 30.0786 12.0783 29.3284 12.8284C28.5783 13.5786 27.5609 14 26.5 14H6.5C5.43913 14 4.42172 13.5786 3.67157 12.8284C2.92143 12.0783 2.5 11.0609 2.5 10V4C2.5 2.93913 2.92143 1.92172 3.67157 1.17157C4.42172 0.421427 5.43913 0 6.5 0V0ZM6.5 2C5.96957 2 5.46086 2.21071 5.08579 2.58579C4.71071 2.96086 4.5 3.46957 4.5 4V10C4.5 10.5304 4.71071 11.0391 5.08579 11.4142C5.46086 11.7893 5.96957 12 6.5 12H26.5C27.0304 12 27.5391 11.7893 27.9142 11.4142C28.2893 11.0391 28.5 10.5304 28.5 10V4C28.5 3.46957 28.2893 2.96086 27.9142 2.58579C27.5391 2.21071 27.0304 2 26.5 2H6.5ZM6.5 18H26.5C27.5609 18 28.5783 18.4214 29.3284 19.1716C30.0786 19.9217 30.5 20.9391 30.5 22V28C30.5 29.0609 30.0786 30.0783 29.3284 30.8284C28.5783 31.5786 27.5609 32 26.5 32H6.5C5.43913 32 4.42172 31.5786 3.67157 30.8284C2.92143 30.0783 2.5 29.0609 2.5 28V22C2.5 20.9391 2.92143 19.9217 3.67157 19.1716C4.42172 18.4214 5.43913 18 6.5 18ZM6.5 20C5.96957 20 5.46086 20.2107 5.08579 20.5858C4.71071 20.9609 4.5 21.4696 4.5 22V28C4.5 28.5304 4.71071 29.0391 5.08579 29.4142C5.46086 29.7893 5.96957 30 6.5 30H26.5C27.0304 30 27.5391 29.7893 27.9142 29.4142C28.2893 29.0391 28.5 28.5304 28.5 28V22C28.5 21.4696 28.2893 20.9609 27.9142 20.5858C27.5391 20.2107 27.0304 20 26.5 20H6.5Z">
+									</path>
+								</svg>
+								<h5 class="mb-4">
+											Compliant
+								</h5>
+								<p class="mb-0">
+									That’s a brilliant idea you’ve got. Build it, and they will come. 																
+								</p>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-6" data-aos="fade-down" data-aos-delay="750">
+							<div class="ps-12 position-relative">
+								<svg width="33" height="32" viewBox="0 0 33 32" fill="none" xmlns="http://www.w3.org/2000/svg" class="fill-action-1 position-absolute top-0 start-0">
+									<path fill-rule="evenodd" clip-rule="evenodd" d="M16.5037 5.49414L15.0697 4.02014C11.7037 0.560144 5.5317 1.75414 3.3037 6.10414C2.2577 8.15014 2.0217 11.1041 3.9317 14.8741C5.7717 18.5041 9.5997 22.8521 16.5037 27.5881C23.4077 22.8521 27.2337 18.5041 29.0757 14.8741C30.9857 11.1021 30.7517 8.15014 29.7037 6.10414C27.4757 1.75414 21.3037 0.558144 17.9377 4.01814L16.5037 5.49414ZM16.5037 29.9981C-14.1623 9.73414 7.0617 -6.08186 16.1517 2.28414C16.2717 2.39414 16.3897 2.50814 16.5037 2.62614C16.6165 2.50825 16.734 2.39483 16.8557 2.28614C25.9437 -6.08586 47.1697 9.73214 16.5037 29.9981Z">
+									</path>
+								</svg>
+								<h5 class="mb-4">
+											Works with cloud native apps
+								</h5>
+								<p class="mb-0">
+Want to create something beautiful? Now you can. In hours, not weeks. 
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- Footer 7 -->
+				<footer class="bg-bg-3 pt-8 pb-12">
+					<div class="container">
+						<div class="row">
+							<div class="mb-8 mb-md-0 col-lg-3 col-xl-3" data-aos="fade-down" data-aos-delay="0">
+								<a href="#" class="mb-4">
+									<img src="i/wlabs-logo-dark.png" srcset="i/wlabs-logo-dark@2x.png 2x" alt="" class="img-fluid">
+								</a>
+								<p class="fs-5">
+Be the first to explore and use our new products while others are still waiting
+								</p>
+								<a href="#" class="btn btn-action-1">
+												sign-up
+								</a>
+							</div>
+							<div class="mb-sm-8 mb-md-0 col-lg-2 col-md-3 col-sm-6" data-aos="fade-down" data-aos-delay="150">
+								<h5 class="mb-4">
+Products
+								</h5>
+								<a href="#" class="mb-4 me-2 me-sm-0 d-sm-block text-dark-1">
+												aether-link
+								</a>
+								<a href="#" class="mb-4 me-2 me-sm-0 d-sm-block text-dark-1">
+												aether-wise
+								</a>
+							</div>
+							<div class="mb-sm-8 mb-md-0 col-lg-2 col-md-3 col-sm-6" data-aos="fade-down" data-aos-delay="250">
+								<h5 class="mb-4">
+												Areas of Expertise
+								</h5>
+								<a href="#" class="mb-4 me-2 me-sm-0 d-sm-block text-dark-1">
+												Security Engineering
+								</a>
+								<a href="#" class="mb-4 me-2 me-sm-0 d-sm-block text-dark-1">
+												Area
+								</a>
+								<a href="#" class="mb-4 me-2 me-sm-0 d-sm-block text-dark-1">
+Inspiration
+								</a>
+								<a href="#" class="mb-4 me-2 me-sm-0 d-sm-block text-dark-1">
+Tutorials
+								</a>
+							</div>
+							<div class="col-lg-2 col-md-3 col-sm-6" data-aos="fade-down" data-aos-delay="400">
+								<h5 class="mb-4">
+About
+								</h5>
+								<a href="#" class="mb-4 me-2 me-sm-0 d-sm-block text-dark-1">
+Newsletter
+								</a>
+								<a href="#" class="mb-4 me-2 me-sm-0 d-sm-block text-dark-1">
+Privacy
+								</a>
+								<a href="#" class="mb-4 me-2 me-sm-0 d-sm-block text-dark-1">
+Terms
+								</a>
+								<a href="#" class="mb-4 me-2 me-sm-0 d-sm-block text-dark-1">
+Cookies
+								</a>
+							</div>
+							<div class="col-lg-2 col-md-3 col-sm-6" data-aos="fade-down" data-aos-delay="500">
+								<h5 class="mb-4" draggable="true">
+Contact
+								</h5>
+								<a href="tel:+94211334283" class="mb-4 me-2 me-sm-0 d-block text-action-1 fw-bold">
+9 (421) 133-42-83
+								</a>
+								<a href="mailto:info@designmodo.com" class="mb-4 me-2 me-sm-0 d-block text-action-1 fw-bold">
+info@designmodo.com
+								</a>
+								<a href="mailto:edvard@designmodo.com" class="mb-4 me-2 me-sm-0 d-block text-action-1 fw-bold">
+edvard@designmodo.com
+								</a>
+							</div>
+						</div>
+						<p class="fs-5 mb-0 mt-lg-0 mt-6" data-aos="fade-down" data-aos-delay="650">
+Copyright © 2021 designmodo.com
+						</p>
+					</div>
+				</footer>
+
+		<!-- Bootstrap JS -->
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
+
+		<!-- AOS 3.0.0-beta.6 plugin JS (Animations) -->
+		<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+		
+		<!-- Startup JS (Custom js for all blocks) - Remove ".min" if you want to edit a JS code -->
+		<script src="js/scripts.min.js"></script>
+
+	</body>
+</html>
